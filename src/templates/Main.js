@@ -20,9 +20,9 @@ export default function Main (){
                         <div className="container">
                             <div className="row">
                                 <div className="col-4 col-lg-3">
-                                    <a className="navbar-brand link" href="index-seo-agency.html">
-                                        <img src="seo-agency/img/logo.png" className="logo-simple" alt="logo"/>
-                                        <img src="seo-agency/img/logo-white-small.png" className="logo-fixed"
+                                    <a className="navbar-brand link" href="#">
+                                        <img src="/images/logo.png" className="logo-simple" alt="logo"/>
+                                        <img src="/images/logo-white-small.png" className="logo-fixed"
                                              alt="logo"/>
                                     </a>
                                 </div>
@@ -32,15 +32,15 @@ export default function Main (){
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                             <div className="navbar-nav ml-auto">
                                                 <a className="nav-link home active link"
-                                                   href="index-seo-agency.html#">HOME</a>
+                                                   href="##">HOME</a>
                                                 <a className="nav-link scroll link"
-                                                   href="index-seo-agency.html#stats-sec">ABOUT</a>
+                                                   href="##stats-sec">ABOUT</a>
                                                 <a className="nav-link scroll link"
-                                                   href="index-seo-agency.html#portfolio-sec">WORK</a>
+                                                   href="##portfolio-sec">WORK</a>
                                                 <a className="nav-link scroll link"
-                                                   href="index-seo-agency.html#pricing-sec">PRICING</a>
+                                                   href="##pricing-sec">PRICING</a>
                                                 <a className="nav-link scroll link"
-                                                   href="index-seo-agency.html#contact-sec">CONTACT</a>
+                                                   href="##contact-sec">CONTACT</a>
                                                 <span className="menu-line"><i aria-hidden="true"
                                                                                className="fa fa-angle-down"/></span>
                                             </div>
@@ -50,7 +50,7 @@ export default function Main (){
                             </div>
                         </div>
                     </div>
-                    <a href="javascript:void(0)" className="sidemenu_btn link" id="sidemenu_toggle">
+                    <a href="" className="sidemenu_btn link" id="sidemenu_toggle">
                         <span/>
                         <span/>
                         <span/>
@@ -63,31 +63,31 @@ export default function Main (){
                         <div className="container">
                             <div className="row w-100 side-menu-inner-content">
                                 <div className="col-12 d-flex justify-content-center align-items-center">
-                                    <a href="index-seo-agency.html" className="navbar-brand"><img
-                                        src="seo-agency/img/logo-white.png" alt="logo"/></a>
+                                    <a href="#" className="navbar-brand"><img
+                                        src="/images/logo-white.png" alt="logo"/></a>
                                 </div>
                                 <div className="col-12 col-lg-8">
                                     <nav className="side-nav w-100">
                                         <ul className="navbar-nav">
                                             <li className="nav-item">
                                                 <a className="nav-link scroll"
-                                                   href="index-seo-agency.html#home">HOME</a>
+                                                   href="#">HOME</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link scroll"
-                                                   href="index-seo-agency.html#stats-sec">ABOUT</a>
+                                                   href="#">ABOUT</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link scroll"
-                                                   href="index-seo-agency.html#portfolio-sec">WORK</a>
+                                                   href="#">WORK</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link scroll"
-                                                   href="index-seo-agency.html#pricing-sec">PRICING</a>
+                                                   href="#">PRICING</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link scroll"
-                                                   href="index-seo-agency.html#contact-sec">CONTACT</a>
+                                                   href="#">CONTACT</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -135,7 +135,7 @@ export default function Main (){
                         </div>
                         <div className="col-12 col-lg-6 d-flex align-items-center">
                             <div className="slider-img-area wow slideInRight" data-wow-delay=".8s" data-depth="0.1">
-                                <img src="%PUBLIC_URL%/slider-img.png" alt="plant" id="slider-inner-img"/>
+                                <img src="/slider-img.png" alt="plant" id="slider-inner-img"/>
                             </div>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ export default function Main (){
                             <div className="portfolio-carousel owl-carousel owl-item">
                                 <div className="item">
                                     <div className="portfolio-image">
-                                        <img src="seo-agency/img/p1.jpg"/>
+                                        <img src="/images/p1.jpg"/>
                                     </div>
                                     <div className="row no-gutters portfolio-footer padding-top">
                                         <div
@@ -247,7 +247,7 @@ export default function Main (){
                                 </div>
                                 <div className="item">
                                     <div className="portfolio-image">
-                                        <img src="seo-agency/img/p2.jpg"/>
+                                        <img src="/images/p2.jpg"/>
                                     </div>
                                     <div className="row no-gutters portfolio-footer padding-top">
                                         <div
@@ -274,7 +274,7 @@ export default function Main (){
                                 </div>
                                 <div className="item">
                                     <div className="portfolio-image">
-                                        <img src="seo-agency/img/p3.jpg"/>
+                                        <img src="/images/p3.jpg"/>
                                     </div>
                                     <div className="row no-gutters portfolio-footer padding-top">
                                         <div
@@ -434,7 +434,7 @@ export default function Main (){
                                                 purus.
                                             </p>
                                             <div className="img-holder">
-                                                <img src="seo-agency/img/test1.jpg"/>
+                                                <img src="/images/test1.jpg"/>
                                             </div>
                                             <h4 className="user-name">Sara Williams</h4>
                                         </div>
@@ -449,7 +449,7 @@ export default function Main (){
                                                 purus.
                                             </p>
                                             <div className="img-holder">
-                                                <img src="seo-agency/img/test2.jpg"/>
+                                                <img src="/images/test2.jpg"/>
                                             </div>
                                             <h4 className="user-name">Julia Miltese</h4>
                                         </div>
@@ -466,22 +466,22 @@ export default function Main (){
                         <div className="col-12">
                             <div className="sponser-tags owl-carousel owl-theme">
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                                 <div className="item">
-                                    <img src="seo-agency/img/brand4.png"/>
+                                    <img src="/images/brand4.png"/>
                                 </div>
                             </div>
                         </div>
@@ -493,8 +493,8 @@ export default function Main (){
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="blog-img wow fadeInLeft">
-                                <img src="seo-agency/img/blog-mokeup.png"/>
-                                <img src="seo-agency/img/blog-mokup-img.png" id="mokeup-img"/>
+                                <img src="/images/blog-mokeup.png"/>
+                                <img src="/images/blog-mokup-img.png" id="mokeup-img"/>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6 text-center text-lg-left">
@@ -549,7 +549,7 @@ export default function Main (){
                                     <li><i className="las la-paper-plane email"/>email@website.com</li>
                                 </ul>
                             </div>
-                            <img src="seo-agency/img/contact-background.png" className="contact-background"
+                            <img src="/images/contact-background.png" className="contact-background"
                                  alt="contact"/>
                         </div>
                     </div>
